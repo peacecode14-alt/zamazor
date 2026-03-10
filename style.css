@@ -1,0 +1,104 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* Navbar */
+
+nav{
+background:#111;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:15px;
+}
+
+nav h2{
+margin:0;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+/* Hero */
+
+.hero{
+height:400px;
+background:url("https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+color:rgb(0, 0, 0);
+font-size:40px;
+font-weight:bold;
+}
+
+/* Categories */
+
+.categories{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:20px;
+padding:40px;
+}
+
+.cat{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.cat:hover{
+transform:scale(1.05);
+}
+
+/* Products */
+
+.products{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:40px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.product img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+button{
+background:#ff9900;
+border:none;
+padding:10px 20px;
+margin-top:10px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
